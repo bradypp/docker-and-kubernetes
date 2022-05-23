@@ -1,5 +1,5 @@
 Deploy
-k apply -f web-to-nginx.yaml -f nginx.yaml
+k apply -f node-to-nginx.yaml -f nginx.yaml
 
 Check
 k get deploy,svc
